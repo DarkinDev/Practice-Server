@@ -1,0 +1,28 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/68503ece6604b8898286b351
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json 
+
+{
+    "name": "Ha Anh Nguyen",
+    "subbed": "Coco Melon"
+}
+
+### 
+
+DELETE http://localhost:3000/subscribers/68503ece6604b8898286b351
+
+### 
+
+DELETE http://localhost:3000/subscribers/
+Content-Type: application/json
+
+{
+    "name": "Ha Anh Nguyen"
+}
